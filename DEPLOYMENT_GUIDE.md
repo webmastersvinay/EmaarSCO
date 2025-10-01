@@ -16,7 +16,7 @@
 4. Get your credentials:
    - Service ID
    - Template ID  
-   - Public Key
+   - Public Keyy
 
 ### Step 2: Update EmailJS Configuration
 
