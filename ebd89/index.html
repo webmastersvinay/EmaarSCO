@@ -257,7 +257,7 @@ a.morelink {
 }
 /*header*/
 header {
-	height: 50px;
+	height: 70px;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -265,7 +265,8 @@ header {
 	position: fixed;
 	background: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.1)
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
+	padding: 10px 0;
 }
 header .logo {
 	height: 50px;
@@ -274,7 +275,7 @@ header .logo {
 }
 header .contact {
 	font-size: 1.25em;
-	line-height: 50px;
+	line-height: 70px;
 	padding: 0 10px;
 	font-family: sans-serif
 }
@@ -1792,7 +1793,15 @@ li.fancybox-thumbs-loading {
 <body>
 <header>
   <div class="menu relative left"></div>
-  <div class="left"> <a href="https://www.emaarsco.in/ebd89/" title="Emaar SCO 89 Nxt"><img src="assets/images/ebd89.jpg" alt="Emaar SCO 89 Nxt" class="logo"></a></div>
+  <div class="left"> 
+    <a href="https://www.emaarsco.in/ebd89/" title="Emaar SCO 89 Nxt" style="text-decoration: none; color: inherit;">
+      <div style="text-align: left; line-height: 1.2;">
+        <div style="font-size: 32px; font-weight: bold; color: #333; font-family: Arial, sans-serif; letter-spacing: 1px;">EBD89</div>
+        <div style="font-size: 12px; font-weight: bold; color: #333; font-family: Arial, sans-serif; margin-top: 1px;">AADHAR HOMES</div>
+        <div style="font-size: 10px; color: #666; font-family: Arial, sans-serif; margin-top: 1px;">AUTHORISED CHANNEL PARTNER</div>
+      </div>
+    </a>
+  </div>
   <div class="contact right black clear blue" onclick="window.location.href='tel:+91 9811750130';"><i class="icon-call-center"> </i> <strong>9811-750-130</strong></div>
 </header>
 <section class="home bg-blue relative clear">
